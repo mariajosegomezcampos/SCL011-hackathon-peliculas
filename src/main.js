@@ -14,7 +14,7 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=71949b65aff64acdb6a0f
                           <section class= "seccion">  
                           <h2> ${element.title}</h2>
                           <p>Year: ${element.release_date}</p>
-                          <p> Reseña: ${element.overview}</p> </section>
+                        
                        </div>` 
            }).join('');
          
@@ -73,7 +73,7 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=71949b65aff64acdb6a0f
                           <section class= "seccion">  
                           <h2> ${element.title}</h2>
                           <p>Year: ${element.release_date}</p>
-                          <p> Reseña: ${element.overview}</p></section>
+                         
                        </div>` 
            }).join('');
          
